@@ -13,7 +13,7 @@ class HangmanTest
 
     word = randomword.downcase
     word_clue = clue(word)
-    puts "#{word}"
+    #puts "#{word}"
     guess_count = guesses(word) 
     guess_count_array = []
     word_array = []
